@@ -7,8 +7,8 @@ This guide will help you set up Bootstrap, configure SCSS watching with Sass, an
 - [Requirements](#requirements)
 - [Installation](#installation)
   - [1. Clone the Repository](#1-clone-the-repository)
-  - [2. Install Dependencies](#2-install-dependencies)
-  - [3. Set Up Sass Watcher](#3-set-up-sass-watcher)
+  - [2. Install Dependencies](#2-Initialize-npm-and-Install-Bootstrap)
+  - [3. Set Up Sass Watcher](#3-Set-Up-Sass-Watcher)
 - [Usage](#usage)
 - [License](#license)
 
