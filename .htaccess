@@ -1,0 +1,48 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Rewrite URLs without extensions to their corresponding PHP files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# Handle other URLs and redirect to a 404 page if not found
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.php [L]
+# Enable URL rewriting
+RewriteEngine On
+
+# Rewrite URLs without extensions to their corresponding PHP files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# Handle other URLs and redirect to a 404 page if not found
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.php [L]
+# Enable URL rewriting
+RewriteEngine On
+
+# Rewrite URLs without extensions to their corresponding PHP files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# Handle other URLs and redirect to a 404 page if not found
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.php [L]
+# Enable URL rewriting
+RewriteEngine On
+
+# Rewrite URLs without extensions to their corresponding PHP files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# Handle other URLs and redirect to a 404 page if not found
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.php [L]
