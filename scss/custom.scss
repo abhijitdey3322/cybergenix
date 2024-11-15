@@ -1,0 +1,11 @@
+// Define custom Bootstrap overrides and variables before the import
+$primary: rgb(19, 120, 81);
+
+// Import Bootstrap SCSS
+@import "../node_modules/bootstrap/scss/bootstrap";
+.spinner_container{position:fixed;height:100vh;width:100vw;backdrop-filter:blur(10px);  z-index: 9999;}
+.spinner-border{position: fixed;top: 50%;left: 50%;/* transform: translate(-50%, -50%); */}
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-track{background:rgb(32, 37, 41);border-radius:10px}
+::-webkit-scrollbar-thumb{background-color:rgb(19,120,81);border-radius:10px;}
+
